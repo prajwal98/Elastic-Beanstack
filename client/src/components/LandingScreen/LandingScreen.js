@@ -203,6 +203,9 @@ function LandingScreen(props) {
   let userDetails = useSelector(authData);
   useEffect(() => {
     socket = io(ENDPOINT);
+    socket.on("hello", (arg) => {
+      console.log(arg); // world
+    });
     console.log(socket);
   }, [ENDPOINT]);
 
