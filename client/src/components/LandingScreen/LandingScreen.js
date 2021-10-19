@@ -133,7 +133,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 let socket;
-const ENDPOINT = "http://node-env.eba-nnqxwv5k.us-east-1.elasticbeanstalk.com/";
 
 function LandingScreen(props) {
   const [pageData, setPageData] = useState([]);
@@ -184,7 +183,7 @@ function LandingScreen(props) {
     useState("");
   const [resetPasswordCodeIssue, setResetPasswordCodeIssue] = useState("");
   const [resetPasswordMatch, setResetPasswordMatch] = useState("");
-  socket = io(ENDPOINT);
+  socket = io();
   // admin reg
 
   const [resetPasswordFirst, setResetPasswordFirst] = useState("");
@@ -202,17 +201,12 @@ function LandingScreen(props) {
   const dispatch = useDispatch();
   let userDetails = useSelector(authData);
   useEffect(() => {
-    socket = io(ENDPOINT);
-    console.log(socket);
-  }, [ENDPOINT]);
-  useEffect(() => {
+    socket = io();
     socket.on("hello", (message) => {
       console.log(message);
     });
   }, []);
-  socket.on("hello", (message) => {
-    console.log(message);
-  });
+
   const [categories, setCategories] = useState([]);
   var settings = {
     dots: true,
