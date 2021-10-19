@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ccfd012.chunk.css",
+    "main.js": "/static/js/main.a9b3baf6.chunk.js",
+    "main.js.map": "/static/js/main.a9b3baf6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.081db457.js",
+    "runtime-main.js.map": "/static/js/runtime-main.081db457.js.map",
+    "static/css/2.7d7fa363.chunk.css": "/static/css/2.7d7fa363.chunk.css",
+    "static/js/2.b90fe5dd.chunk.js": "/static/js/2.b90fe5dd.chunk.js",
+    "static/js/2.b90fe5dd.chunk.js.map": "/static/js/2.b90fe5dd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7d7fa363.chunk.css.map": "/static/css/2.7d7fa363.chunk.css.map",
+    "static/css/main.5ccfd012.chunk.css.map": "/static/css/main.5ccfd012.chunk.css.map",
+    "static/js/2.b90fe5dd.chunk.js.LICENSE.txt": "/static/js/2.b90fe5dd.chunk.js.LICENSE.txt",
+    "static/media/1img.f32b96b4.png": "/static/media/1img.f32b96b4.png",
+    "static/media/2img.babc42dd.png": "/static/media/2img.babc42dd.png",
+    "static/media/3img.9ce27163.png": "/static/media/3img.9ce27163.png",
+    "static/media/4img.59a0bcae.png": "/static/media/4img.59a0bcae.png",
+    "static/media/5img.71b08c85.png": "/static/media/5img.71b08c85.png",
+    "static/media/P1 - PG Diploma in bioinformatics.03df4e18.jpg": "/static/media/P1 - PG Diploma in bioinformatics.03df4e18.jpg",
+    "static/media/arrow_back_black_24dp.ceecbfa5.svg": "/static/media/arrow_back_black_24dp.ceecbfa5.svg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/close_black_24dp.244b6687.svg": "/static/media/close_black_24dp.244b6687.svg",
+    "static/media/edlogo.e47b2578.png": "/static/media/edlogo.e47b2578.png",
+    "static/media/i1.eab7da3a.jpg": "/static/media/i1.eab7da3a.jpg",
+    "static/media/i2.eab7da3a.jpg": "/static/media/i2.eab7da3a.jpg",
+    "static/media/i3.eab7da3a.png": "/static/media/i3.eab7da3a.png",
+    "static/media/i4.eab7da3a.jpg": "/static/media/i4.eab7da3a.jpg",
+    "static/media/logo.11ef1b1c.jpg": "/static/media/logo.11ef1b1c.jpg",
+    "static/media/nothing-here-icon.de9a123a.png": "/static/media/nothing-here-icon.de9a123a.png",
+    "static/media/onlinelearn.03df4e18.jpg": "/static/media/onlinelearn.03df4e18.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.081db457.js",
+    "static/css/2.7d7fa363.chunk.css",
+    "static/js/2.b90fe5dd.chunk.js",
+    "static/css/main.5ccfd012.chunk.css",
+    "static/js/main.a9b3baf6.chunk.js"
+  ]
+}
