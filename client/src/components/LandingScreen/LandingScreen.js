@@ -184,7 +184,7 @@ function LandingScreen(props) {
     useState("");
   const [resetPasswordCodeIssue, setResetPasswordCodeIssue] = useState("");
   const [resetPasswordMatch, setResetPasswordMatch] = useState("");
-
+  socket = io(ENDPOINT);
   // admin reg
 
   const [resetPasswordFirst, setResetPasswordFirst] = useState("");
@@ -210,6 +210,9 @@ function LandingScreen(props) {
       console.log(message);
     });
   }, []);
+  socket.on("hello", (message) => {
+    console.log(message);
+  });
   const [categories, setCategories] = useState([]);
   var settings = {
     dots: true,
