@@ -9,7 +9,7 @@
     "build": "cd client && npm run build",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
     "start": "node server.js",
-    "production-postbuild": "cd client && yarn && yarn install --only=dev --no-shrinkwrap && yarn build && mv build ../"
+    "production-postbuild": "cd client && yarn && yarn install --only=dev --no-shrinkwrap && yarn build"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -17,7 +17,7 @@
     "cors": "2.8.5",
     "dotenv": "7.0.0",
     "express": "^4.16.4",
-    "stripe": "6.28.0"
+    "socket.io": "^4.3.1"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",

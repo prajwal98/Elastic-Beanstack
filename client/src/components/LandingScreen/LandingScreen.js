@@ -5,6 +5,7 @@ import { awsSignIn, authData } from "../../redux/auth/authSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { Constants } from "../../config/constants";
 import logo from "../../assets/images/logo.jpg";
+import io from "socket.io-client";
 
 import {
   Container,
@@ -131,6 +132,8 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2, 4, 3),
   },
 }));
+let socket;
+const ENDPOINT = "http://node-env.eba-nnqxwv5k.us-east-1.elasticbeanstalk.com/";
 
 function LandingScreen(props) {
   const [pageData, setPageData] = useState([]);
@@ -198,6 +201,10 @@ function LandingScreen(props) {
   // let navigate = useNavigate();
   const dispatch = useDispatch();
   let userDetails = useSelector(authData);
+  useEffect(() => {
+    socket = io(ENDPOINT);
+    console.log(socket);
+  }, [ENDPOINT]);
 
   const [categories, setCategories] = useState([]);
   var settings = {
@@ -211,15 +218,18 @@ function LandingScreen(props) {
     adaptiveHeight: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    appendDots: dots => (
+    appendDots: (dots) => (
       <div
         style={{
           backgroundColor: "transparent",
           borderRadius: "10px",
-          padding: "10px"
+          padding: "10px",
         }}
       >
-        <ul style={{ marginBottom: "5%", background: "transparent" }}> {dots} </ul>
+        <ul style={{ marginBottom: "5%", background: "transparent" }}>
+          {" "}
+          {dots}{" "}
+        </ul>
       </div>
     ),
   };
@@ -333,7 +343,7 @@ function LandingScreen(props) {
       />
     );
   }
-  function LoginButton() { }
+  function LoginButton() {}
 
   const openLogin = () => {
     setOpen(true);
@@ -359,8 +369,8 @@ function LandingScreen(props) {
     setOpen(false);
   };
 
-  const emailOnKeyPress = () => { };
-  const passwordOnKeyPress = () => { };
+  const emailOnKeyPress = () => {};
+  const passwordOnKeyPress = () => {};
 
   function LoginModal() {
     useEffect(() => {
@@ -441,7 +451,7 @@ function LandingScreen(props) {
         } else {
           setcognitoErrorPassword("");
         }
-        if(error.message){
+        if (error.message) {
           setcognitoErrorPassword(error.message);
         }
       }
@@ -529,8 +539,9 @@ function LandingScreen(props) {
               </span>
               <Image
                 size="small"
-                src={`https://${config.DOMAIN
-                  }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
+                src={`https://${
+                  config.DOMAIN
+                }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
                 style={{
                   marginLeft: "170px",
                   height: "auto",
@@ -698,13 +709,13 @@ function LandingScreen(props) {
       setRegPassTextIssue(regCognitoErrorPassword);
     }, [regCognitoErrorUsername, regCognitoErrorPassword]);
 
-    const nameOnKeyPress = () => { };
+    const nameOnKeyPress = () => {};
 
-    const emailOnKeyPress = () => { };
+    const emailOnKeyPress = () => {};
 
-    const passwordOnKeyPress = () => { };
+    const passwordOnKeyPress = () => {};
 
-    const confirmPasswordOnKeyPress = () => { };
+    const confirmPasswordOnKeyPress = () => {};
 
     const handleOpen = () => {
       setSignInOpen(true);
@@ -870,8 +881,9 @@ function LandingScreen(props) {
               )}
               <Image
                 size="small"
-                src={`https://${config.DOMAIN
-                  }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo.jpg`}
+                src={`https://${
+                  config.DOMAIN
+                }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo.jpg`}
                 style={{
                   marginLeft: "170px",
                   marginTop: "80px",
@@ -1075,7 +1087,7 @@ function LandingScreen(props) {
       setForgotPasswordEmailTextIssue(forgotPasswordCognitoErrorUsername);
     }, [forgotPasswordCognitoErrorUsername]);
 
-    const emailOnKeyPress = () => { };
+    const emailOnKeyPress = () => {};
 
     const forgotPasswordHandler = async () => {
       try {
@@ -1095,7 +1107,7 @@ function LandingScreen(props) {
         } else {
           setForgotPasswordCognitoErrorUsername("");
         }
-        if(error.message){
+        if (error.message) {
           setForgotPasswordCognitoErrorUsername(error.message);
         }
       }
@@ -1163,8 +1175,9 @@ function LandingScreen(props) {
               )}
               <Image
                 size="small"
-                src={`https://${config.DOMAIN
-                  }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
+                src={`https://${
+                  config.DOMAIN
+                }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
                 style={{
                   marginLeft: "190px",
                   marginTop: "80px",
@@ -1205,7 +1218,7 @@ function LandingScreen(props) {
                     onClick={() => {
                       resetEmailPassIssueText(0);
                     }}
-                  //onKeyPress={(event) => { emailOnKeyPress(); }}
+                    //onKeyPress={(event) => { emailOnKeyPress(); }}
                   />
                 </div>
 
@@ -1294,9 +1307,9 @@ function LandingScreen(props) {
       }
     };
 
-    const passwordOnKeyPress = () => { };
+    const passwordOnKeyPress = () => {};
 
-    const VerificationcodeOnKeyPress = () => { };
+    const VerificationcodeOnKeyPress = () => {};
     const handleOpen = () => {
       setResetPasswordOpen(true);
     };
@@ -1312,7 +1325,7 @@ function LandingScreen(props) {
     function samePassVerify() {
       var regularExpression =
         /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
-      if ( resetPassword === "" || confirmResetPassword === "") {
+      if (resetPassword === "" || confirmResetPassword === "") {
         setResetPasswordMatch("Please enter a password");
       } else {
         setResetPasswordMatch("");
@@ -1358,8 +1371,9 @@ function LandingScreen(props) {
               )}
               <Image
                 size="small"
-                src={`https://${config.DOMAIN
-                  }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
+                src={`https://${
+                  config.DOMAIN
+                }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/logo-dark.jpg`}
                 style={{
                   marginLeft: "190px",
                   marginTop: "80px",
@@ -1416,7 +1430,7 @@ function LandingScreen(props) {
                     placeholder={"Verification Code"}
                     onChange={(e) => setVerificationCode(e.target.value)}
                     onKeyPress={VerificationcodeOnKeyPress}
-                  //onKeyPress={nameOnKeyPress}
+                    //onKeyPress={nameOnKeyPress}
                   />
                 </div>
                 <label
@@ -1446,7 +1460,7 @@ function LandingScreen(props) {
                     placeholder={"New password"}
                     onChange={(e) => setResetPassword(e.target.value)}
                     onKeyPress={passwordOnKeyPress}
-                  //onKeyPress={nameOnKeyPress}
+                    //onKeyPress={nameOnKeyPress}
                   />
                 </div>
                 <div
@@ -1470,7 +1484,7 @@ function LandingScreen(props) {
                     placeholder={"Confirm password"}
                     onChange={(e) => setConfirmResetPassword(e.target.value)}
                     onKeyPress={VerificationcodeOnKeyPress}
-                  //onKeyPress={nameOnKeyPress}
+                    //onKeyPress={nameOnKeyPress}
                   />
                 </div>
                 <p
@@ -1531,7 +1545,7 @@ function LandingScreen(props) {
   ];
 
   return (
-    <div style={{scrollY: "hidden"}}>
+    <div style={{ scrollY: "hidden" }}>
       {LoginModal()}
       {SignInModal()}
       {ForgotPasswordModal()}
@@ -1548,14 +1562,21 @@ function LandingScreen(props) {
           width: "100%",
           marginLeft: "0px",
           background: "transparent",
-          scrollY: "hidden"
+          scrollY: "hidden",
         }}
       >
         {" "}
-        {pageData !== undefined ?
+        {pageData !== undefined ? (
           pageData.length !== 0 ? (
             pageData.map((value) => (
-              <div style={{ height: "100vh", width: "100%", marginTop: "55px" , scrollY: "hidden"}}>
+              <div
+                style={{
+                  height: "100vh",
+                  width: "100%",
+                  marginTop: "55px",
+                  scrollY: "hidden",
+                }}
+              >
                 {/*   <Card
               style={{
                 width: "100%",
@@ -1572,9 +1593,11 @@ function LandingScreen(props) {
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat", */
                   }}
-                  src={`https://${config.DOMAIN
-                    }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/${value.image
-                    }`}
+                  src={`https://${
+                    config.DOMAIN
+                  }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/${
+                    value.image
+                  }`}
                   alt=""
                 />
                 <div
@@ -1593,14 +1616,16 @@ function LandingScreen(props) {
                     marginTop: "30px",
                     marginLeft: "25px",
                     lineHeight: "50px",
-                    scrollY: "hidden"
+                    scrollY: "hidden",
                   }}
                 >
                   <p dangerouslySetInnerHTML={{ __html: value.text }}></p>
                   <p>
                     {console.log(
-                      `('https://${config.DOMAIN
-                      }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/${value.image
+                      `('https://${
+                        config.DOMAIN
+                      }/${config.aws_org_id.toLowerCase()}-resources/images/org-images/${
+                        value.image
                       }')`
                     )}
                   </p>
@@ -1623,7 +1648,8 @@ function LandingScreen(props) {
                 <div style={{ height: "90vh", width: "100%" }} />
               </Skeleton>
             </div>
-          ) : null}
+          )
+        ) : null}
       </Slider>
       {/*   <h2
         style={{
