@@ -7,12 +7,7 @@ if (process.env.NODE_ENV !== "production") require("dotenv").config();
 
 const app = express();
 const httpServer = require("http").createServer(app);
-const io = new Server(httpServer, {
-  cors: {
-    origin: "http://node-env.eba-nnqxwv5k.us-east-1.elasticbeanstalk.com/",
-    methods: ["GET", "POST"],
-  },
-});
+const io = new Server(httpServer, {});
 io.on("connection", (socket) => {
   console.log("NEW WS  connection");
   socket.emit("hello", { name: "Prajwal", city: "Mysore", ordered_Food: true });
