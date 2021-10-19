@@ -1,0 +1,70 @@
+.tabcontainer{
+    padding: 20px;
+
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px
+}
+
+.label{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.courseselect{
+    height: 30px;
+    background: transparent;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.option{
+    width: 100px;
+    overflow: auto;
+}
+
+.toggleholder{
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 100%;
+    gap: 30px;
+}
+
+.toggleinternal{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accholder{
+    padding-top: 20px;
+}
+
+.titleandprogress{
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+
+.dropdownselect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

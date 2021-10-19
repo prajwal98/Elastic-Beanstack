@@ -1,0 +1,66 @@
+.management {
+    padding: 0 3rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .h1 {
+      margin-bottom: 2rem;
+    }
+}
+
+.lableText{
+  font-size: medium !important;
+  margin-left: 10%;
+ 
+}
+.textBox{
+  font-size: medium;
+ width:80%;
+ border-color: grey;
+ height:30px;
+ padding-top: 8px;
+ border-width: thin;
+ display: flex;
+ margin-left: 10%;
+}
+
+.browse{
+  margin-left: 10%;
+}
+.issueText{
+  margin-left: 10%;
+  color: red;
+}
+.reviewText{
+  font-size: medium !important;
+  margin-left: 10%;
+}
+.reviewTextSpan{
+  font-size: medium !important;
+  margin-left: 0%;
+  
+}
+.saveButton{
+  color:white !important;
+ border-style:groove !important;
+ border-color:#E35F14 !important;
+ height:25px !important;
+ width:70px;
+ line-height:0px !important;
+ margin-right :22px !important;
+ background-color: #E35F14 !important;
+ font-size: 14px !important;
+ border-radius: 3px !important;
+ 
+}
+.nextButton{
+  color:#E35F14 !important;
+ border-style:groove !important;
+ border-color:#E35F14 !important;
+ height:25px !important;
+ width:70px;
+ line-height:0px !important;
+ margin-right :22px !important;
+ background-color: white !important;
+ font-size: 14px !important;
+ border-radius: 3px !important;
+}

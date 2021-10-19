@@ -1,0 +1,14 @@
+.maincontainer{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+    overflow-y: auto;
+}
+
+.mainheader{
+    font-size: 26px;
+    color: var(--header-color);
+    font-weight: bold;
+    padding: 20px 0px;
+}

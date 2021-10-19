@@ -1,0 +1,109 @@
+.card {
+  width: 88% !important;
+  height: 300px !important;
+  margin-left: 10px !important;
+  border-radius: 10px !important;
+}
+.imageCard {
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 180px !important;
+}
+.topicName {
+  margin-top: 20px !important;
+  font-size: 15px !important;
+  float: left !important;
+  margin-left: 20px !important;
+  font-weight: bold !important;
+  color: #3372b5 !important;
+  margin-right: 20px !important;
+}
+.slick-dots {
+  bottom: 47px !important;
+}
+.slick-arrow {
+  color: black !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: revert !important;
+}
+.projectTitle {
+  font-size: 36px !important;
+  color: #13316c !important;
+  font-family: "MyWebFont" !important;
+  font-weight: bold !important;
+  width: 40% !important;
+  position: absolute !important;
+  top: 0% !important;
+  left: 25% !important;
+  transform: translate(-50%, 321%) !important;
+  text-align: center !important;
+  z-index: 10 !important;
+  margin: 192px -22% !important;
+  line-height: 35px !important;
+}
+.loginButtonTitle {
+  color: white !important;
+  border-style: groove !important;
+  border-color: #e35f14 !important;
+  height: 30px !important;
+  line-height: 0px !important;
+  margin-top: 22px !important;
+  background-color: #e35f14 !important;
+  font-size: 16px !important;
+  border-radius: 3px !important;
+  font-weight: bold;
+}
+/* style={{   fontSize: "26px",
+    color: "#E35F14",
+   
+    fontWeight: "bold",
+    width: "40%",
+    position: "absolute",
+    top: "0%",
+    left: "25%",
+    
+    textAlign: "center",
+    zIndex: "10",
+    margin: "192px -22%",
+    lineHeight: "35px"}} */
+.spinnerStyle {
+  width: 40px !important;
+  height: 40px !important;
+  /* left: 200px; */
+  margin-left: 252px !important;
+  z-index: 999 !important;
+  margin-top: 187px !important;
+  overflow: visible !important;
+  position: fixed !important;
+}
+.spinnerStyle:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.labelForIssue {
+  font-size: 12.5px !important;
+
+  white-space: nowrap !important;
+  height: 20px !important;
+  color: #f64242 !important;
+}
+
+.emailIc {
+  width: 30px;
+  height: 30px;
+  position: absolute !important;
+  left: 17%;
+}
+.passIc {
+  width: 26px;
+  height: 26px;
+  position: absolute !important;
+  left: 17%;
+}

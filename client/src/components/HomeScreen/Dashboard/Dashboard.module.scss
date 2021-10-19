@@ -1,0 +1,161 @@
+.maincontainer{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 30px;
+  margin: 0px;
+}
+
+.content {
+  display: flex;
+}
+
+.maingridholder{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: fit-content;
+}
+
+.content-view {
+  flex: 1;
+  p {
+    text-align: justify;
+  }
+}
+.card {
+  width: 90% !important;
+  height: 270px;
+  margin-bottom: 2px;
+  border-radius: 8px !important;
+  //box-shadow: 0 0 11px rgba($color: #000000, $alpha: 0.3) !important;
+}
+.imageCard {
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 120px !important;
+}
+.topicNameDashboard {
+  margin-top: 15px !important;
+  font-size: 15px !important;
+  float: left !important;
+  font-weight: bold !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  //font-size: var(--para-size-medium) !important;
+  color: #3372b5;
+}
+.announcementIcon {
+  width: 40px;
+  height: 40px;
+  fill: orangered !important;
+  float: left;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.pdfIcon {
+  margin-top: -60px;
+  float: right;
+  cursor: pointer;
+}
+.announcements {
+  border-bottom: 1px;
+}
+.announcmentDivider {
+  color: gray;
+
+  align-self: center;
+}
+.progressbar {
+  margin-top: 10px;
+  width: 85%;
+  margin-left: 18px;
+  align-self: center;
+}
+.gridHeader {
+  color: #3372b5;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: large;
+  margin-left: -530px;
+}
+
+.gridHeaderCourse {
+  color: #e35f14;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: large;
+  //margin-left: -530px;
+}
+
+.iconBottom {
+  border: none;
+  float: left;
+  margin-top: 14px;
+  margin-left: -60px;
+  width: 40px;
+  background-color: white;
+  height: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: medium;
+  box-shadow: 2px 2px 2px grey;
+  margin-right: 20px;
+  text-align: center;
+  //position: fixed;
+}
+
+.iconTop {
+  font-size: 12px;
+  font-weight: bold;
+  // position: fixed;
+  border: 1px solid;
+  float: left;
+  margin-top: -5px;
+  width: 40px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: orangered;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 2px grey;
+}
+.eventsDivider {
+  margin-top: 20px;
+}
+.clock-size {
+  height: 26px !important;
+  width: 26px !important;
+  margin-right: 10px;
+  margin-top: -5px !important;
+}
+.cls1,
+.cls2 {
+  fill: none;
+  stroke: #9e9e9e;
+  stroke-miterlimit: 10;
+  stroke-width: 4.55px;
+}
+.cls2 {
+  stroke-linecap: round;
+}
+
+.clock {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 10px;
+  margin-top: -4px;
+}
+
+.grid{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}

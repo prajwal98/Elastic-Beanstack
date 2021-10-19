@@ -1,0 +1,433 @@
+LEARNED :
+ Contants.js : 
+    main_color_1: "#0f80a4",
+    main_color_2: "#f18121",
+    platform_main_theme: "linear-gradient(#0f80a4, #0f80a4)",
+    button_color_web: "#0f80a4",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #0f80a4;
+    $color-grey-dark-2: #0f80a4;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #f18121;
+    --sub-heading-color: #0f80a4;
+    --button-background: #0f80a4;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+--------------------------------------------------------------------------------------------------
+
+
+  QSD :
+    Contants.js : 
+        main_color_1: "#ffb81c",
+        main_color_2: "#ffb81c",
+        platform_main_theme: "linear-gradient(#FFB81C, #FFB81C)",
+        button_color_web: "#ffb81c",
+    App.scss :
+        $submenu-bg-color: rgba(255, 255, 255, 0.05);
+        $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+        $sidebar-color: #ADADAD;
+        $highlight-color: #D8D8D8;
+        $icon-bg-color: rgba(255, 255, 255, 0.05);
+        $icon-size: 35px;
+        $color-grey-dark-1: #ffb81c;
+        $color-grey-dark-2: #ffb81c;
+        $body-color: #fff;
+        :root {
+            --header-color: #ffb81c;
+            --sub-heading-color: #ffb81c;
+            --button-background: #ffb81c;
+            --button-text: #fff;
+            --para-color: rgba(0,0,0,0.6);
+            --heading-size: 24px;
+            --para-size-large: 18.5px;
+            --para-size-medium: 14.5px;
+            --para-size-small: 12.5px;
+            --before-color: #777;
+        }
+
+----------------------------------------------------------------------------------------------------------------------------        
+
+
+JSS-Mysore :
+ Contants.js : 
+    main_color_1: "#01458E",
+    main_color_2: "#E35F14",
+    platform_main_theme: "linear-gradient( #01458E,  #01458E)",
+    button_color_web: " #01458E",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1:  #01458E;
+    $color-grey-dark-2:  #01458E;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #E35F14;
+    --sub-heading-color:  #01458E;
+    --button-background:  #01458E;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------        
+
+T-John  :
+ Contants.js : 
+    main_color_1: "#00529E",
+    main_color_2: "#DA251C",
+    platform_main_theme: "linear-gradient(#00529E, #00529E)",
+    button_color_web: "#00529E",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #00529E;
+    $color-grey-dark-2: #00529E;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #DA251C;
+    --sub-heading-color: #00529E;
+    --button-background: #00529E;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------        
+
+JSSAHER Mauritius  :
+ Contants.js : 
+    main_color_1: " #28166F",
+    main_color_2: "#DA251C",
+    platform_main_theme: "linear-gradient( #28166F,  #28166F)",
+    button_color_web: " #28166F",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1:  #28166F;
+    $color-grey-dark-2:  #28166F;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #DA251C;
+    --sub-heading-color:  #28166F;
+    --button-background:  #28166F;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+JSSATE NOIDA  :
+ Contants.js : 
+    main_color_1: "#E7493A",
+    main_color_2: "#3B5998",
+    platform_main_theme: "linear-gradient(#E7493A, #E7493A)",
+    button_color_web: "#E7493A",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #E7493A;
+    $color-grey-dark-2: #E7493A;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #3B5998;
+    --sub-heading-color: #E7493A;
+    --button-background: #E7493A;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+SARADA VILAS  :
+ Contants.js : 
+    main_color_1: "#081455",
+    main_color_2: "#42B0FF",
+    platform_main_theme: "linear-gradient(#081455, #081455)",
+    button_color_web: "#081455",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #081455;
+    $color-grey-dark-2: #081455;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #42B0FF;
+    --sub-heading-color: #081455;
+    --button-background: #081455;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+    ----------------------------------------------------------------------------------------------------------------------------
+
+SDMIT :
+ Contants.js : 
+    main_color_1: "#0f80a4",
+    main_color_2: "#FF1949",
+    platform_main_theme: "linear-gradient(#0f80a4, #0f80a4)",
+    button_color_web: "#0f80a4",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #0f80a4;
+    $color-grey-dark-2: #0f80a4;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #FF1949;
+    --sub-heading-color: #0f80a4;
+    --button-background: #FF1949;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+----------------------------------------------------------------------------------------------------------------------------
+
+NIEIT  :
+ Contants.js : 
+    main_color_1: "#3F4094",
+    main_color_2: "#3DB166",
+    platform_main_theme: "linear-gradient(#3F4094, #3F4094)",
+    button_color_web: "#3F4094",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #3F4094;
+    $color-grey-dark-2: #3F4094;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #3DB166;
+    --sub-heading-color: #3F4094;
+    --button-background: #3F4094;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sri Adichunchanagiri college of pharmacy  :
+ Contants.js : 
+    main_color_1: "#37306F",
+    main_color_2: "#A72F2E",
+    platform_main_theme: "linear-gradient(#37306F, #37306F)",
+    button_color_web: "#37306F",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #37306F;
+    $color-grey-dark-2: #37306F;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #A72F2E;
+    --sub-heading-color: #37306F;
+    --button-background: #37306F;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+----------------------------------------------------------------------------------------------------------------------------
+
+bharathi college of pharmacy :  :
+ Contants.js : 
+    main_color_1: "#2D7FC7",
+    main_color_2: "#29a22c",
+    platform_main_theme: "linear-gradient(#2D7FC7, #2D7FC7)",
+    button_color_web: "#2D7FC7",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #2D7FC7;
+    $color-grey-dark-2: #2D7FC7;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #29a22c;
+    --sub-heading-color: #2D7FC7;
+    --button-background: #2D7FC7;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Abhinava bharathi college of pharmacy :  :
+ Contants.js : 
+    main_color_1: "#48487F",
+    main_color_2: "#E35F14",
+    platform_main_theme: "linear-gradient(#48487F, #48487F)",
+    button_color_web: "#48487F",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #48487F;
+    $color-grey-dark-2: #48487F;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #E35F14;
+    --sub-heading-color: #48487F;
+    --button-background: #48487F;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+
+
+    ----------------------------------------------------------------------------------------------------------------------------
+
+ GGN Khalsa College of Pharmacy  :
+ Contants.js : 
+    main_color_1: "#0D2643",
+    main_color_2: "#81CA00",
+    platform_main_theme: "linear-gradient(#0D2643, #0D2643)",
+    button_color_web: "#0D2643",
+App.scss : 
+    $submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #0D2643;
+    $color-grey-dark-2: #0D2643;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #81CA00;
+    --sub-heading-color: #0D2643;
+    --button-background: #0D2643;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }

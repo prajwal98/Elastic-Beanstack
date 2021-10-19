@@ -1,0 +1,47 @@
+.content {
+  display: flex;
+  width: 100% !important;
+  // background-color: #F2F5F9;
+}
+
+.content-view {
+  background-color: #f2f5f9;
+  margin: 1rem 3rem;
+  flex: 1;
+  margin-left: 25rem;
+
+  overflow: hidden !important;
+  p {
+    text-align: justify;
+  }
+}
+
+.e-agenda {
+  display: none !important;
+}
+.e-edit,
+.e-delete {
+  display: none !important;
+}
+.e-cell-popup {
+  display: none !important;
+}
+
+.livesession__btn {
+  border: 0 !important;
+  outline: none;
+}
+
+.btn-hov-cf:hover {
+  color: #0f80a4 !important;
+  background-color: #fff !important;
+}
+
+.btn-color-cf {
+  color: #fff;
+  background-color: #0f80a4;
+}
+
+.hideconfirm {
+  display: none !important;
+}

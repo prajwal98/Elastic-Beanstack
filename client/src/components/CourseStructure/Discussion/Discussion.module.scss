@@ -1,0 +1,149 @@
+//Begin template
+body {
+  background: #eee;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+//End template
+.disscussionInput {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+  height: 100px;
+  border-style: groove;
+  margin-bottom: 10px;
+  white-space: normal;
+  box-shadow: 0 0 11px rgba($color: #000000, $alpha: 0.3);
+  font-size: 14px;
+}
+
+.disscussionInputPopup {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+  height: 150px !important;
+  border-style: groove;
+  margin-top: 10%;
+  font-size: 14px;
+
+}
+
+.buttonPost {
+  position: absolute;
+  right: 20px;
+  top: 57px;
+  color: #fff !important;
+  //background-color: #3f51b5 !important;
+  border-radius: 8px !important;
+  font-size: 18px;
+  height: 30px;
+  line-height: 7px;
+}
+
+.buttonCancel {
+  position: absolute;
+  right: 15px;
+  top: 57px;
+  color: var(--button-background) !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  font-size: 18px;
+  height: 28px;
+  line-height: 13px;
+  border: 2px solid var(--button-background) !important;
+
+  font-weight: bold;
+}
+
+.embedsubmitfields{
+  position: relative;
+
+  input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    height: 140px;
+    border-style: groove;
+  }
+  button {
+    position: absolute;
+    right: 20px;
+    top: 57px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff !important;
+    background-color: var(--button-background) !important;
+    border-radius: 8px !important;
+
+    //Only styling from here, you can discard this
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    border: none;
+    background: #ededed;
+    border-radius: 3px;
+    padding: 10px;
+
+    transition: all 0.2s;
+  }
+}
+.embedsubmitfield {
+  position: relative;
+
+  input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    height: 140px;
+    border-style: groove;
+  }
+  button {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff !important;
+    background-color: var(--button-background) !important;
+    border-radius: 8px !important;
+
+    //Only styling from here, you can discard this
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    border: none;
+    background: #ededed;
+    border-radius: 3px;
+    padding: 10px;
+
+    transition: all 0.2s;
+  }
+}
+.messageContent {
+  font-size: large !important;
+}
+.replyIcon {
+  width: 26px;
+  height: 26px;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 45px;
+  margin-left: -20px;
+}
+
+.alertspan{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

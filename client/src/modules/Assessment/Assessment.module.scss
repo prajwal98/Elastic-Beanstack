@@ -1,0 +1,307 @@
+.assessmentHeader {
+  font-weight: bold !important;
+  font-weight: 16px !important;
+}
+.startAssessment {
+  font-size: 15px;
+}
+.endAssessment {
+  font-size: 15px;
+}
+.unitAssesment {
+  margin-top: 20px !important;
+}
+
+.closebtn {
+  background-color: transparent !important;
+  border: none;
+  width: 10px;
+
+  right: -17px !important;
+  top: 8px !important;
+  color: black !important;
+  font-size: 15px !important;
+}
+.body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  border-radius: 15px;
+  color: black;
+}
+
+.bodyAns {
+  background-color: white;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  border-radius: 15px;
+  color: black;
+}
+
+.app1 {
+  background-color: white;
+  width: 100%;
+  min-height: 60vh;
+  height: min-content;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  overflow-y: auto;
+  max-height: 95vh;
+  overflow-x: hidden;
+  align-items: center;
+  // justify-content: center;
+}
+.scoresection {
+  display: flex;
+  min-height: 50vh;
+  font-size: 24px;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+.scrollQuiz {
+  overflow-y: auto;
+  max-height: 400px;
+  overflow-x: hidden;
+}
+/* QUESTION/TIMER/LEFT SECTION */
+.questionsection {
+  width: 100%;
+  position: relative;
+}
+.questioncount {
+  margin-bottom: 20px;
+}
+.questioncount span {
+  font-size: 28px;
+}
+.questiontext {
+  margin-bottom: 12px !important;
+  font-size: 14px;
+}
+.timertext {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1px solid rgb(255, 189, 67);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+/* ANSWERS/RIGHT SECTION */
+.answersection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btnQuiz {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.buttonQuiz {
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0.5rem;
+  text-align: center;
+}
+.buttonQuizAns {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.btncenter {
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0.5rem;
+  text-align: center;
+}
+.correct {
+  background-color: #2f922f;
+}
+.incorrect {
+  background-color: #ff3333;
+}
+
+.buttonQuiz svg {
+  margin-right: 5px;
+}
+
+.paper {
+  position: "absolute";
+  width: 400;
+  border: "2px solid #000";
+  background-color: violet;
+}
+.nextbtn {
+  width: 110px;
+  color: white;
+  font-size: 12px;
+  margin-top: 47px;
+}
+.grid1 {
+  padding: 0 45px;
+  color: white;
+}
+.grid2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.MuiListItemText-primary {
+  margin-top: unset !important;
+  margin-bottom: unset !important;
+}
+.drawer > .MuiSvgIcon-root {
+  fill: white !important;
+}
+
+.MuiListItembutton {
+  border: 1px solid black !important;
+  margin: 0 73px !important;
+  width: 80% !important;
+  font-size: 20px !important;
+  color: black;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 12px;
+  color: black;
+}
+.Checkbox {
+  margin: 0px 10px 0px !important;
+  cursor: pointer;
+}
+.CheckboxLabel {
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+}
+.bordercolor {
+  border: 1px solid yellow;
+}
+.MuiIconButtonlabel {
+  display: none !important;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: none !important;
+}
+
+.labelstyle {
+  width: 100% !important;
+  margin: 20px 0px;
+}
+
+.labelstyleAns {
+  width: 130% !important;
+}
+.btn-secondary {
+  width: 100% !important;
+}
+.btngroupvertical {
+  display: inline-block !important;
+}
+.btn-secondary {
+  width: 100%;
+}
+input:checked + label {
+  border: 1px solid #f5a138;
+  /* font-weight: bold; */
+}
+.textarea {
+  min-height: 100px !important;
+  max-height: 250px !important;
+  overflow: hidden;
+  font-size: 20px !important;
+  width: 100% !important;
+}
+.assesstimertext {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-bottom: -86px;
+}
+.assesslist {
+  border: 1px solid #ddd;
+  padding: 20px 0px;
+}
+.assesscon {
+  margin: 0;
+  max-width: unset !important;
+}
+.closestyle {
+  width: 100%;
+  display: block !important;
+  text-align: end;
+  margin: 35px 30px 0px 30px !important;
+}
+.closestyle1 {
+  width: 100%;
+  display: block !important;
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  text-align: right;
+}
+.startbutton{
+  background: var(--button-background);
+  border: none;
+  border-radius: 5%;
+  height: 30px;
+  width: fit-content;
+  color: var(--button-text);
+  font-family: "nunito";
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 30px;
+  padding: 0px 20px;
+}
+
+.startbutton:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -1,0 +1,31 @@
+
+.subcontainer{
+    // margin-top: 5%;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: left;
+    color: var(--sub-heading-color);
+}
+
+.backbuttonholder{
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    top: 60px;
+    left: 20px;
+    background: whitesmoke;
+    z-index: 100;
+}
+
+.backbutton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.headingholder{
+    padding-top: 20px;
+}

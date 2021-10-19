@@ -1,0 +1,54 @@
+.maincontainer{
+  margin: 0px;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.monthLabel {
+  margin-top: 5px !important;
+  margin-left: 120px;
+}
+.titleStyle {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.eventsDivider {
+  margin-top: 20px;
+}
+
+.iconBottom {
+  border: none;
+  float: left;
+  margin-top: 14px;
+  margin-left: -60px;
+  width: 40px;
+  background-color: white;
+  height: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: medium;
+  box-shadow: 2px 2px 2px grey;
+  margin-right: 20px;
+  text-align: center;
+  //position: fixed;
+}
+
+.iconTop {
+  font-size: 12px;
+  font-weight: bold;
+  //position: fixed;
+  border: 1px solid;
+  float: left;
+  margin-top: -5px;
+  width: 40px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: orangered;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 2px grey;
+}

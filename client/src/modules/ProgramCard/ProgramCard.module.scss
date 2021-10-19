@@ -1,0 +1,122 @@
+.program {
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.3);
+  width: 100%;
+  margin-top: 20px;
+
+  &__img {
+    flex: 0 0 27%;
+    background-color: aqua;
+    border-radius: 5px 0 0 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__details {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0 5px 5px 0;
+    .h1 {
+      text-align: left;
+    }
+  }
+  .individual_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 70%;
+    margin-bottom: 1rem;
+    font-size: var(--para-size-small);
+
+    p:last-child {
+      text-align: left;
+    }
+  }
+  .program_info {
+    flex: 0 0 70%;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 26%;
+      height: 100%;
+      width: 0.5px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: rgba(0, 0, 0, 0.6);
+      transform: scaleY(1);
+      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+        background-color 0.1s;
+    }
+    & .individual-info:last-child {
+      margin-top: 1rem;
+    }
+  }
+  .time_info {
+    flex: 1;
+    justify-content: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    margin-top: -25px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .program_info__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+  }
+  .width {
+    width: 65%;
+    margin-top: 1rem;
+    margin-left: 20px;
+  }
+}
+.icon_size {
+  width: 3rem;
+  height: 3rem;
+}
+.info_cls_1 {
+  fill: #e35f14;
+}
+.info_cls_2 {
+  fill: #fff;
+}
+
+.AS_cls_1,
+.AS_cls_2 {
+  fill: #e35f14;
+}
+.AS_cls_2 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2.88px;
+}
+.AS_cls_3 {
+  fill: #fff;
+}
+.AS_cls_4 {
+  fill: none;
+  stroke: #e35f14;
+  stroke-linecap: round;
+  stroke-linejoin: bevel;
+  stroke-width: 2.66px;
+}
+
+.Syb_cls_1 {
+  fill: #e35f14;
+}
+
+.Ans_cls_1 {
+  fill: #e35f14;
+}
+
+.maincontainer{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}

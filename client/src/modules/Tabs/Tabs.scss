@@ -1,0 +1,28 @@
+.overview-content {
+  p {
+    text-align: left;
+  }
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+}
+.instructors {
+  display: flex;
+  flex-direction: column;
+  &__h1 {
+    margin-bottom: 3rem;
+    text-align: left;
+    h1 {
+      text-align: left;
+    }
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}

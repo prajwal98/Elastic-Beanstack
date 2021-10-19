@@ -1,0 +1,101 @@
+.tabcontainer{
+    padding: 20px;
+
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px
+}
+
+.label{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.courseselect{
+    height: 30px;
+    background: transparent;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.twotableholder{
+    padding-top: 20px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.leftaccordionholder{
+    width: 50%;
+    height: fit-content;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.rightaccordionholder{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.assignmentnotactive{
+    width:100%;
+    font-size: 18px;
+    background: white;
+    color: black;
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.assignmentactive{
+    width:100%;
+    font-size: 18px;
+    background: var(--color-grey-dark-1);
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.clock{
+    width: 30%;
+    height: 30%;
+    fill: var(--header-color);
+    stroke-width: 5px;
+}
+
+.tick{
+    height: 30%;
+    width: 30%;
+    stroke-width: 2px;
+}
+
+.Remove{
+    height: 30%;
+    width: 30%;
+}
+.cls1{
+    fill:none;
+    stroke: var(--header-color);
+}
+
+.cls2{
+    fill:none;
+    stroke: var(--header-color);
+}
+
+.dropdownselect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

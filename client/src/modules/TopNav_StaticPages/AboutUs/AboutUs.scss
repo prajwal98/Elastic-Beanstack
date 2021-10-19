@@ -1,0 +1,50 @@
+.headingStyle{
+    font-size: 30px !important;
+    color: gray !important;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+
+    padding: 10px 0;
+    margin: 0;
+    font-weight: bolder;
+}
+.subHeading{
+    font-size: 23px;
+    color: #E77C2D;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+
+    padding: 10px 0px;
+    margin: 0;
+    text-align:left;
+    //background-color: #13316c;
+    font-weight: bold;
+}
+.contentAboutUs{
+    color: #000;
+    padding: 15px 0px;
+    text-align: justify;
+    font-size: var(--para-size-large);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.subHeading_vertical{
+    text-align: left;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #E77C2D;
+    padding: 10px 10px;
+    margin: 0;
+    text-align:left;
+    
+    
+}
+.sideHedaing{
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.paraContent{
+    color: #000;
+    padding: 15px 30px;
+    text-align: "justify";
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: var(--para-size-large);
+}

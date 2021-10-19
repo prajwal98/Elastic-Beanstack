@@ -1,0 +1,95 @@
+/* .headerStyle {
+  background-image: linear-gradient(#3372b5, #01498e) !important;
+  height: 70px !important;
+  font-size: 17px !important;
+} */
+.loginButton {
+  color: #e35f14 !important;
+  border-style: solid !important;
+  border-color: #e35f14 !important;
+  height: 30px !important;
+  line-height: 0px !important;
+  margin-top: 20px !important;
+  background-color: white !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  border-width: 1.5px !important;
+  font-weight: bolder !important;
+}
+.emailStyle {
+  fill: #e35f14;
+
+  width: 2px;
+  height: 2px;
+}
+.spinnerStyle {
+  width: 40px !important;
+  height: 40px !important;
+  /* left: 200px; */
+  margin-left: 252px !important;
+  z-index: 999 !important;
+  margin-top: 187px !important;
+  overflow: visible !important;
+  position: fixed !important;
+}
+.spinnerStyle:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.labelForIssue {
+  font-size: 12.5px !important;
+
+  white-space: nowrap !important;
+  height: 20px !important;
+  color: #f64242 !important;
+}
+.hover {
+  display: none;
+}
+
+.emailIc {
+  width: 30px;
+  height: 30px;
+  position: absolute !important;
+  left: 17%;
+}
+.passIc {
+  width: 26px;
+  height: 26px;
+  position: absolute !important;
+  left: 17%;
+}
+
+.headerStyle{
+  padding: 10px 20px;
+}
+
+.imageholder{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menuholder{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.dropnow{
+  width: 350px;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  white-space: break-spaces !important;
+}
+
+
+/* linear-gradient(#3372B5,#01498e); */

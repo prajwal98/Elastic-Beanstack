@@ -1,0 +1,26 @@
+.qtable {
+  border: 1px solid white;
+  color: white !important;
+}
+.qtable tr td {
+  border: 1px solid white !important;
+  padding: 5px;
+  width: 50% !important;
+  color: white;
+}
+.qtable tr th {
+  border: 1px solid white;
+  padding: 5px;
+}
+.right_size {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.Wrong_size {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 14px;
+  margin-left: 10px;
+}

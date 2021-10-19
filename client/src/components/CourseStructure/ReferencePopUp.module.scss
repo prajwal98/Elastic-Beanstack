@@ -1,0 +1,32 @@
+.mainpopup{
+    height: 600px;
+    width: 60%;
+    background: white;
+    margin: auto;
+    padding: 20px;
+}
+
+.iconholder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.mediaholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.image{
+    height: 400px;
+    width: 80%;
+}

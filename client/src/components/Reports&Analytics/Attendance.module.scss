@@ -1,0 +1,55 @@
+.tabcontainer{
+    padding: 20px;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px
+}
+
+.label{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.courseselect{
+    height: 30px;
+    background: transparent;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.totalcount{
+    padding: 20px 0px;
+}
+
+.count{
+    font-size: 20px;
+}
+
+.tick{
+    height: 15%;
+    width: 15%;
+    stroke-width: 3px;
+}
+
+.cls1{
+    fill:none;
+}
+
+.cls2{
+    fill:none;
+    stroke: darkgreen;
+}
+
+.reject{
+    height: 13%;
+    width: 13%;
+    stroke-width: 3px;
+}

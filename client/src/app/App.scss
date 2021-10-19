@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+// Change block starts here
+// $sidebar-bg-color: #1d1d1d;
+$submenu-bg-color: rgba(255, 255, 255, 0.05);
+    $submenu-bg-color-collapsed: rgba(29, 29, 29, 0.95);
+    $sidebar-color: #adadad;
+    $highlight-color: #d8d8d8;
+    $icon-bg-color: rgba(255, 255, 255, 0.05);
+    $icon-size: 35px;
+
+    $color-grey-dark-1: #0f80a4;
+    $color-grey-dark-2: #0f80a4;
+    $body-color: #fff;
+
+    :root {
+    --header-color: #f18121;
+    --sub-heading-color: #0f80a4;
+    --button-background: #0f80a4;
+    --button-text: #fff;
+    --para-color: rgba(0, 0, 0, 0.6);
+    --heading-size: 24px;
+    --para-size-large: 18.5px;
+    --para-size-medium: 14.5px;
+    --para-size-small: 12.5px;
+    --before-color: #777;
+    }
+// Change block ends here
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+body {
+  margin: 0;
+  height: 100vh;
+  //color: $body-color;
+  font-family: "Roboto", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  position: relative;
+  height: 100vh;
+
+  .btn-toggle {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    color: #333;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    display: none;
+  }
+
+  .sidebar-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .sidebar-btn {
+      padding: 1px 15px;
+      border-radius: 40px;
+      // background: rgba(255, 255, 255, 0.05);
+      color: #adadad;
+      text-decoration: none;
+      margin: 0 auto;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      span {
+        margin-left: 5px;
+        font-size: 13px;
+      }
+      &:hover {
+        color: $highlight-color;
+      }
+    }
+  }
+
+  .collapsed {
+    .sidebar-btn {
+      display: inline-block;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      line-height: 40px;
+      padding: 0;
+    }
+  }
+
+  main {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #efefef;
+      h1 {
+        display: flex;
+        align-items: center;
+        transform: translateX(-20px);
+      }
+    }
+
+    footer {
+      margin-top: auto;
+      color: #888;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: #888;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .social-bagdes {
+    margin-top: 10px;
+    img {
+      margin: 5px;
+    }
+  }
+
+  .block {
+    display: flex;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #545454;
+    > span {
+      margin-left: 10px;
+    }
+  }
+
+  &.rtl {
+    direction: rtl;
+    text-align: right;
+
+    header {
+      h1 {
+        transform: translateX(20px);
+      }
+    }
+    .block {
+      direction: rtl;
+      > span {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+    .sidebar-btn-wrapper {
+      .sidebar-btn {
+        span {
+          margin-left: 0;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    overflow-x: hidden;
+    header {
+      h1 {
+        font-size: 24px;
+      }
+    }
+    .header {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      width: 200px;
+    }
+  }
+  @media screen and (min-width: 1px) and(max-width: $breakpoint-md) {
+    .btn-toggle {
+      display: flex;
+    }
+
+    &.rtl {
+      .btn-toggle {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+.badge {
+  padding: 3px 6px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  &.red {
+    color: #ffffff;
+    background: var(--header-color) !important;
+  }
+  &.gray {
+    color: #ffffff;
+    background: #777777;
+  }
+  &.yellow {
+    color: #000000;
+    background: #ffd331;
+  }
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+  background-image: linear-gradient(
+    to top,
+    var(--color-grey-dark-1) 30%,
+    var(--color-grey-dark-1)
+  );
+
+  .pro-icon span {
+    width: 4rem;
+    height: 4rem;
+  }
+  .pro-icon span svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.pro-sidebar-header {
+  border: none !important;
+}
+
+.pro-sidebar-footer {
+  border: none !important;
+}
+
+.pro-item-content {
+  color: #fff !important;
+}
+
+.ui.tabular.menu .active.item {
+  color: var(--header-color) !important;
+  font-weight: bold;
+  font-size: var(--para-size-large);
+}
+
+.ui.tabular.menu .item {
+  font-size: 18px !important;
+
+  color: var(--sub-heading-color) !important;
+}
+
+.ui.tabular.menu .item::after {
+  content: "" !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 85%;
+  width: 0.5px;
+  background-color: var(--before-color);
+  z-index: -1;
+}
+
+h2 {
+  color: var(--sub-heading-color) !important;
+}
+
+// .App {
+//   @media screen and(min-width:1600px) and (max-width: 2000px) {
+//     margin: 0 20rem;
+//   }
+// }
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  margin: 4rem 0 !important;
+}
+
+.MuiSvgIcon-root {
+  font-size: 3rem !important;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem 0;
+  position: absolute;
+
+  bottom: 30px;
+
+  list-style-type: none;
+
+  li {
+    margin: 0 0.5rem;
+  }
+
+  button {
+    display: block;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+    background-color: #ccc !important;
+
+    text-indent: -9999px;
+  }
+
+  li.slick-active button {
+    background-color: var(--sub-heading-color) !important;
+  }
+}
+.ui.basic.blue.button,
+.ui.basic.blue.buttons .button {
+  color: var(--button-background) !important;
+}
+
