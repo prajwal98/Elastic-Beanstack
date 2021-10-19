@@ -15,7 +15,7 @@ const io = new Server(httpServer, {
 });
 io.on("connection", (socket) => {
   console.log("NEW WS  connection");
-  socket.emit("hello", "world");
+  socket.emit("hello", { name: "Prajwal", city: "Mysore", ordered_Food: true });
 });
 
 const port = process.env.PORT || 5000;

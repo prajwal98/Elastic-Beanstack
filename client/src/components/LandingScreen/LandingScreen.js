@@ -203,12 +203,12 @@ function LandingScreen(props) {
   let userDetails = useSelector(authData);
   useEffect(() => {
     socket = io(ENDPOINT);
-    socket.on("hello", (arg) => {
-      console.log(arg); // world
-    });
+
     console.log(socket);
   }, [ENDPOINT]);
-
+  socket.on("hello", (arg) => {
+    console.log(arg); // world
+  });
   const [categories, setCategories] = useState([]);
   var settings = {
     dots: true,
